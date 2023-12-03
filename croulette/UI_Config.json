@@ -1,0 +1,87 @@
+{
+    "output_file": "settings.json",
+    "command": {
+        "type": "textbox",
+        "value": "!croulette",
+        "label": "Command Name",
+        "tooltip": "Name of the command",
+        "group": "General"
+    },
+    "currencyName": {
+        "type": "textbox",
+        "value": "XP",
+        "label": "Channel Currency Name",
+        "tooltip": "Name of your channel currency",
+        "group": "General"
+    },
+    "cost": {
+        "type": "numberbox",
+        "value": 50,
+        "label": "Cost",
+        "tooltip": "Currency cost to play",
+        "group": "General"
+    },
+    "userCooldown": {
+        "type": "numberbox",
+        "value": 300,
+        "label": "User Cooldown",
+        "tooltip": "User cooldown (seconds)",
+        "group": "General"
+    },
+    "msgBase": {
+        "type": "textbox",
+        "value": "{0}, result: {1}",
+        "label": "Base Message",
+        "tooltip": "Base bot response message",
+        "group": "Messages"
+    },
+    "msgUserCooldown": {
+        "type": "textbox",
+        "value": "{0}, the command is still on user cooldown for {1}:{2}!",
+        "label": "User Cooldown Message",
+        "tooltip": "Message displayed for user cooldown",
+        "group": "Messages"
+    },
+    "msgInvalidBet": {
+        "type": "textbox",
+        "value": "{0}, specify a valid bet: 0, 00, 1-36, b, r, o, e, h, l, c1, c2, c3, d1, d2, or d3",
+        "label": "Invalid Bet Message",
+        "tooltip": "Message issued upon an invalid (or no) user bet",
+        "group": "Messages"
+    },
+    "msgNotEnough": {
+        "type": "textbox",
+        "value": "{0}, you don't have enough {2} to play! ({1} {2} required)",
+        "label": "Not Enough Currency Message",
+        "tooltip": "Message issued if user does not have enough currency to play",
+        "group": "Messages"
+    },
+    "msgLoss": {
+        "type": "textbox",
+        "value": "You lost {0} {1}. Better luck next time? riPepperonis",
+        "label": "Loss Message",
+        "tooltip": "Message displayed for loss",
+        "group": "Messages"
+    },
+    "msgJackpot": {
+        "type": "textbox",
+        "value": "JACKPOT! Congratulations. You might be a genius... or just really lucky. {0} {1} FlawlessVictory",
+        "label": "Jackpot Message",
+        "tooltip": "Message displayed for jackpot win (straight bets only)",
+        "group": "Messages"
+    },
+    "msg2to1": {
+        "type": "textbox",
+        "value": "You took a risk and it paid off! ... I think. {0} {1} SeemsGood",
+        "label": "2:1 Win Message",
+        "tooltip": "Message displayed for a 2:1 payout",
+        "group": "Messages"
+    },
+    "msg1to1": {
+        "type": "textbox",
+        "value": "Alright, that was probably a little too easy. {0} {1} TwitchLit",
+        "label": "1:1 Win Message",
+        "tooltip": "Message displayed for a 1:1 payout",
+        "group": "Messages"
+    }
+}
